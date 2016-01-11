@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@+drawable/uploadbackground"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1" >
+
+        <TextView
+            android:id="@+id/disasterText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="灾情描述："
+            android:textColor="#000000"
+            android:textSize="20sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/disasteredittext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:minLines="5" >
+        </EditText>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/imageText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图片路径："
+                android:textColor="#000000"
+                android:textSize="20sp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/imagePath"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true" >
+            </EditText>
+        </TableRow>
+
+        <TableRow android:gravity="right" >
+
+            <Button
+                android:id="@+id/selectButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择图片"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="提交"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableLayout>
+
+</LinearLayout>

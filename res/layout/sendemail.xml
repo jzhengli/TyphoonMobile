@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/uploadbackground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/myTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textColor="#000000"
+        android:text="主题" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/myEditText2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:inputType="textEmailSubject"
+        android:text="用户反馈" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/myTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textColor="#000000"
+        android:text="内容" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/myEditText3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:layout_weight="0.56"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        android:text="天气预报不准确!"
+        android:gravity="top" >
+    </EditText>
+
+    <Button
+        android:id="@+id/myButton1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp"
+        android:layout_marginLeft="60sp"
+        android:layout_marginRight="60sp"
+        android:layout_marginTop="5sp"
+        android:text="发送" >
+    </Button>
+
+</LinearLayout>

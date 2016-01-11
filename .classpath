@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="src" path="lib"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="D:/my documents/Documents/大三下/androidDev/Mobile/libs/baidumapapi.jar"/>
+	<classpathentry kind="lib" path="D:/my documents/Documents/大三下/课程/空间信息移动服务/大作业/Mobile/lib/activation.jar"/>
+	<classpathentry kind="lib" path="D:/my documents/Documents/大三下/课程/空间信息移动服务/大作业/Mobile/lib/additionnal.jar"/>
+	<classpathentry kind="lib" path="D:/my documents/Documents/大三下/课程/空间信息移动服务/大作业/Mobile/lib/mail.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

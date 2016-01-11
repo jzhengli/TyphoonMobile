@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">防汛通</string>
+    <string name="item1">台风信息</string>
+    <string name="item2">我的位置</string>
+    <string name="item3">天气预报</string>
+    <string name="item4">卫星云图</string>
+    <string name="item5">气象雷达</string>
+    <string name="item6">常用资料</string>
+    <string name="item7">灾情上传</string>
+    <string name="item8">求救</string>
+    <string name="item9">用户反馈</string>
+</resources>
